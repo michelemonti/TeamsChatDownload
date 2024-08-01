@@ -1,6 +1,6 @@
 English Version
 
-# TeamsChatAnalyzer v1.0
+# TeamsChatDownload v1.0
 
 TeamsChatAnalyzer is a utility for downloading and analyzing Microsoft Teams chat data using Microsoft Graph API. This project allows users to authenticate, download chat data, and utilize it to generate summaries and useful documentation for business purposes.
 
@@ -13,7 +13,7 @@ TeamsChatAnalyzer is a utility for downloading and analyzing Microsoft Teams cha
 
 Clone this repository to your local machine using the following command:
 
-git clone https://github.com/michelemonti/TeamsChatAnalyzer.git
+git clone https://github.com/michelemonti/TeamsChatDownload.git
 
 
 #### Install Dependencies
@@ -31,7 +31,7 @@ TENANT_ID=your-tenant-id
 REDIRECT_URI=http://localhost:5500/get_token
 Replace your-client-id, your-client-secret, and your-tenant-id with the correct values from your Azure AD registered application.
 
-##### Usage
+## Usage
 Start the Server
 
 Run the server to start the application:
